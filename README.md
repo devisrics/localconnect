@@ -63,5 +63,3 @@ npm run build
 * Email & push notifications 📧🔔
 * Advanced search & filters 🔍
 
-
-Do you want me to make that too?
