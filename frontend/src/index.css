@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  overflow: hidden; /* Prevent global scroll */
+  overflow-x: hidden;
   background-color: var(--page-bg);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
@@ -168,6 +168,11 @@ html, body {
 .nav-link-pro:hover, .nav-link-active {
   color: #38bdf8 !important;
 }
+
+.nav-dark-professional {
+  z-index: 1030;
+}
+
 
 /* 🔷 User Profile Circle */
 .user-avatar-circle {
