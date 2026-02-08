@@ -9,7 +9,7 @@ const Navbar = () => {
   const isActive = (path) => (location.pathname === path ? "nav-link-active" : "");
 
   return (
-    <nav className="navbar navbar-expand-lg nav-dark-professional sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark nav-dark-professional sticky-top">
       <div className="container">
         {/* Brand Logo */}
         <Link className="brand-logo" to="/">
